@@ -1,0 +1,7 @@
+package kodlamaioDemo.core.logging;
+
+public interface iLogger {
+
+	void log(String data);
+
+}

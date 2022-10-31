@@ -1,0 +1,24 @@
+package classesWithAttributes;
+
+public class Product {
+
+	// attribute
+	private int _id;
+	private String _name;
+	private String _description;
+	private double _price;
+	private int _stockAmount;
+	private String _renk;
+	private String _kod;
+
+	
+	public int getId() {
+		return id;
+	}
+	
+	// this içinde bulunulan class
+	public void setId(int id) {
+		id=id;
+	}
+	
+}

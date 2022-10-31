@@ -1,0 +1,7 @@
+package kodlamaioDemo.business;
+
+public class categoryManager {
+	
+	private categoryDao CategoryDao;
+
+}

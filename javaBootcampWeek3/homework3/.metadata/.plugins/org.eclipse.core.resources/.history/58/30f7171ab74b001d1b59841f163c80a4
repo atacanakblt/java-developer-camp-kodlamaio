@@ -1,0 +1,10 @@
+package kodlamaioDemo.business;
+
+import kodlamaioDemo.dataAccess.abstracts.categoryDao;
+
+public class categoryManager {
+	
+	private categoryDao CategoryDao;
+	
+
+}

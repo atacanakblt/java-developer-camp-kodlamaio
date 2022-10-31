@@ -1,0 +1,12 @@
+package kodlamaioDemo.business;
+
+import kodlamaioDemo.core.logging.iLogger;
+import kodlamaioDemo.dataAccess.abstracts.instructorDao;
+
+public class instructorManager {
+	
+	private instructorDao InstructorDao;
+	private iLogger[] loggers;
+
+
+}

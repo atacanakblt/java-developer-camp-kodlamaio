@@ -1,0 +1,27 @@
+package kodlamaioDemo.business;
+
+import java.util.List;
+
+import kodlamaioDemo.core.logging.iLogger;
+import kodlamaioDemo.dataAccess.abstracts.categoryDao;
+import kodlamaioDemo.entities.Category;
+
+public class categoryManager {
+	
+	private categoryDao CategoryDao;
+	private iLogger[] ILogger;
+	private List<Category> categories;
+	
+	public categoryManager(categoryDao categoryDao, iLogger[} iLogger, List<Category> categories) {
+		
+		CategoryDao = categoryDao;
+		ILogger = iLogger;
+		this.categories = categories;
+	}
+	
+	
+	
+	
+	
+
+}

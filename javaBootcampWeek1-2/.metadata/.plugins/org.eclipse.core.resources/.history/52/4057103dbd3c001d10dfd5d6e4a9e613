@@ -1,0 +1,14 @@
+package classesWithAttributes;
+
+public class Product {
+
+	// attribute
+	private int id;
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+	String renk;
+	
+
+}

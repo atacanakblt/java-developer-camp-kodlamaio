@@ -1,0 +1,7 @@
+package kodlamaioDemo.dataAccess.abstracts;
+
+public interface instructorDao {
+	
+	public void add(Instructor instructor);
+
+}

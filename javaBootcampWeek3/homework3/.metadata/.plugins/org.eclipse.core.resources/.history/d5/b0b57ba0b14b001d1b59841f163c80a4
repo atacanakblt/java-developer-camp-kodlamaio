@@ -1,0 +1,5 @@
+package kodlamaioDemo.entities;
+
+public class Course {
+
+}

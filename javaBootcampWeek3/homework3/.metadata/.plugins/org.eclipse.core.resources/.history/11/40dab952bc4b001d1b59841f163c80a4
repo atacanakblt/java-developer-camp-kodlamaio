@@ -1,0 +1,17 @@
+package kodlamaioDemo;
+
+import kodlamaioDemo.entities.Course;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Course course = new Course(1,"Java","Engin Demiroğ",500);
+		Course course1 = new Course(1,"Java","Engin Demiroğ",500);
+		Course course2 = new Course(1,"Java","Engin Demiroğ",500);
+		Course course3 = new Course(1,"Java","Engin Demiroğ",500);
+
+
+	}
+
+}

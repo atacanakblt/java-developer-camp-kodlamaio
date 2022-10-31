@@ -1,0 +1,11 @@
+package kodlamaioDemo.business;
+
+import java.util.ArrayList;
+
+public class categoryManager {
+	
+	private ArrayList<String> availableCategories = new ArrayList<String>();
+	private categoryDao CategoryDao;
+	private iLogger[] loggers;
+
+}

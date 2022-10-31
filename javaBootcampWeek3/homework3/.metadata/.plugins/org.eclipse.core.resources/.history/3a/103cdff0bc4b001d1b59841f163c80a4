@@ -1,0 +1,24 @@
+package kodlamaioDemo;
+
+import kodlamaioDemo.business.courseManager;
+import kodlamaioDemo.core.logging.databaseLogger;
+import kodlamaioDemo.core.logging.fileLogger;
+import kodlamaioDemo.core.logging.mailLogger;
+import kodlamaioDemo.dataAccess.hibernate.hibernateCourseDao;
+import kodlamaioDemo.dataAccess.jdbc.jdbcCourseDao;
+import kodlamaioDemo.entities.Course;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Course course = new Course(1,"Java","Engin Demiroğ",500);
+		Course course1 = new Course(2,"JavaScript","Engin Demiroğ",750);
+		Course course2 = new Course(3,"Python","Engin Demiroğ",150);
+		Course course3 = new Course(4,"Flutter","Engin Demiroğ",200);
+		courseManager CourseManager = new CourseManager(new jdbcCourseDao(), new hibernateCourseDao(), new databaseLogger(), new fileLogger(), new mailLogger());
+		
+
+	}
+
+}

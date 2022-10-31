@@ -1,0 +1,27 @@
+package kodlamaioDemo.business;
+
+import kodlamaioDemo.core.logging.iLogger;
+import kodlamaioDemo.dataAccess.abstracts.instructorDao;
+import kodlamaioDemo.entities.Instructor;
+
+public class instructorManager {
+	
+	private instructorDao InstructorDao;
+	private iLogger[] loggers;
+	
+	public instructorManager(instructorDao InstructorDao, iLogger[] loggers) {
+		super();
+		this.InstructorDao = InstructorDao;
+		this.loggers = loggers;
+	}
+	
+	public void add(Instructor instructor) {
+		InstructorDao.add(instructor);
+		
+		for(iLogger logger:loggers) {
+			logger.log("Yeni bir eğitmen eklendi : " + course.getCourseName());
+	}
+	
+
+
+}

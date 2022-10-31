@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.abstracts.courseDao"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.abstracts.categoryDao"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.abstracts.instructorDao"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.entities.Course"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.business.courseManager"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.jdbc.jdbcCourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.core.logging.databaseLogger"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.core.logging.fileLogger"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.core.logging.mailLogger"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.core.logging.iLogger"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.entities.Category"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.hibernate.hibernateCourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.business.categoryManager"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.hibernate.hibernateCategoryDao"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.entities.Instructor"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.business.instructorManager"/>
+    <fullyQualifiedTypeName name="kodlamaioDemo.dataAccess.jdbc.jdbcInstructorDao"/>
+</qualifiedTypeNameHistroy>

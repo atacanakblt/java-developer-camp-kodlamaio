@@ -1,0 +1,10 @@
+package kodlamaioDemo.entities;
+
+public class Course {
+	
+	private int id;
+	private String courseName;
+	private String instructorName;
+	double unitPrice;
+
+}

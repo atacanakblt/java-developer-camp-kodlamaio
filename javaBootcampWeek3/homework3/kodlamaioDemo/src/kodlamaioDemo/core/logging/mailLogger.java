@@ -1,0 +1,10 @@
+package kodlamaioDemo.core.logging;
+
+public class mailLogger implements iLogger {
+
+	@Override
+	public void log(String data) {
+
+	}
+
+}

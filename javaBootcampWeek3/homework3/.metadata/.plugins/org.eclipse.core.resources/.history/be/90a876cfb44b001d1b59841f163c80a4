@@ -1,0 +1,7 @@
+package kodlamaioDemo.dataAccess.abstracts;
+
+public interface categoryDao {
+	
+	public void add(Category category);
+
+}

@@ -1,0 +1,24 @@
+package kodlamaioDemo.business;
+
+import java.util.ArrayList;
+
+import kodlamaioDemo.core.logging.iLogger;
+import kodlamaioDemo.dataAccess.abstracts.categoryDao;
+
+public class categoryManager {
+	
+	private ArrayList<String> availableCategories = new ArrayList<String>();
+	private categoryDao CategoryDao;
+	private iLogger[] loggers;
+	
+	public categoryManager(ArrayList<String> availableCategories, categoryDao CategoryDao, iLogger[] loggers) {
+		this.availableCategories = availableCategories;
+		this.CategoryDao = CategoryDao;
+		this.loggers = loggers;
+	}
+	
+	public void
+	
+	
+
+}

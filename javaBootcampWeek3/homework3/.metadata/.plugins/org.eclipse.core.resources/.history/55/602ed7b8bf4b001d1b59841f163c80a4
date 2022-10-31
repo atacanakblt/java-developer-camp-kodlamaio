@@ -1,0 +1,36 @@
+package kodlamaioDemo.business;
+
+import java.util.ArrayList;
+
+import kodlamaioDemo.core.logging.iLogger;
+import kodlamaioDemo.dataAccess.abstracts.categoryDao;
+import kodlamaioDemo.entities.Category;
+
+public class categoryManager {
+	
+	private ArrayList<String> availableCategories = new ArrayList<String>();
+	private categoryDao CategoryDao;
+	private iLogger[] loggers;
+	
+	public categoryManager(categoryDao CategoryDao, iLogger[] loggers) {
+		this.CategoryDao = CategoryDao;
+		this.loggers = loggers;
+	}
+	
+	public void add(Category category) throws Exception {
+		if(availableCategories.contains(category.getCategoryName())) {
+			throw new Exception("Bu isimde bir kurs vardır");
+		}
+		
+		availableCategories.add(category.getCategoryName());
+		CategoryDao.add(category);
+		
+		for(iLogger logger:loggers) {
+			logger.log("Yeni bir kategori eklendi : " + category.getCategoryName());
+	}
+	}
+}
+	
+	
+
+

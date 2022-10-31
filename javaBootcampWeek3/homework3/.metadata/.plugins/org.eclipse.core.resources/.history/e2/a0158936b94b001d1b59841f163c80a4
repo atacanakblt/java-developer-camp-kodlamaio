@@ -1,0 +1,20 @@
+package kodlamaioDemo.business;
+
+import kodlamaioDemo.entities.Course;
+
+public class courseManager {
+	
+	public void add(Course course) throws Exception {
+		if(course.getUnitPrice()<0) {
+			throw new Exception("Bir kursun fiyatı 0'dan küçük olamaz ");
+		}
+		if(availableCourses.contains(course.getCourseName())) {
+			throw new Exception("Bu isimde bir kurs vardır. Lütfen değiştiriniz.")
+		}
+		
+		availableCourses.add(course.getCourseName());
+		courseDao.add(course);
+		
+	}
+
+}

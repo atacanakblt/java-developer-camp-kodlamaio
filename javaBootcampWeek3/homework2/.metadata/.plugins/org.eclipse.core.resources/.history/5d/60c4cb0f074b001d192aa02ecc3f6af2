@@ -1,0 +1,18 @@
+package interfaces;
+
+public class CustomerManager {
+	
+	
+	ICustomerDal customerDal;
+	public CustomerManager() {
+		
+	}
+	
+	
+	
+	public void add() {
+		customerDal.add();
+		
+	}
+
+}

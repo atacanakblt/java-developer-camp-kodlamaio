@@ -1,0 +1,7 @@
+package polymorphismDemo;
+
+public class CustomerManager {
+	BaseLogger[] loggers = new BaseLogger[] {new FileLogger() , new EmailLogger() , new DatabaseLogger()};
+	
+	for(BaseLogger logger:loggers)
+}

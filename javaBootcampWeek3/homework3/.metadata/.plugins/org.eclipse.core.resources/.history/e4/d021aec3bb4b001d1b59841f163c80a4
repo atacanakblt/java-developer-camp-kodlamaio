@@ -1,0 +1,14 @@
+package kodlamaioDemo.dataAccess.abstracts;
+
+import kodlamaioDemo.entities.Course;
+import kodlamaioDemo.entities.Instructor;
+
+public interface instructorDao {
+	
+	public static void add(Instructor instructor) {
+		
+		public void add(Instructor instructor);
+
+	}
+
+}

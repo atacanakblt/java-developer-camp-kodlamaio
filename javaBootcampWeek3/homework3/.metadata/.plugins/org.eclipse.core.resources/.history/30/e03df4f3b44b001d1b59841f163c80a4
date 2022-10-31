@@ -1,0 +1,9 @@
+package kodlamaioDemo.dataAccess.hibernate;
+
+import kodlamaioDemo.dataAccess.abstracts.categoryDao;
+
+public class hibernateCategoryDao implements categoryDao {
+	
+	
+
+}

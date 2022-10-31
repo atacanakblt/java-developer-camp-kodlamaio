@@ -1,0 +1,9 @@
+package kodlamaioDemo.dataAccess.abstracts;
+
+import java.util.Locale.Category;
+
+public interface instructorDao {
+	
+	public void add(Category category);
+
+}

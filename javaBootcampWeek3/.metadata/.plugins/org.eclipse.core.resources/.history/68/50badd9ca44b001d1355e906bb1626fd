@@ -1,0 +1,9 @@
+package oopWithNLayeredApp.business;
+
+public class ProductManager {
+	
+	public void add() {
+		
+	}
+
+}

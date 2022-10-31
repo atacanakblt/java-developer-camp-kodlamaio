@@ -1,0 +1,14 @@
+package kodlamaioDemo.business;
+
+import kodlamaioDemo.entities.Course;
+
+public class courseManager {
+	
+	public void add(Course course) {
+		if(course.getUnitPrice()<0) {
+			throw new Exception("Bir kursun fiyatı 0'dan küçük olamaz ")
+		}
+		
+	}
+
+}

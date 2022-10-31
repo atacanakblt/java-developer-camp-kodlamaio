@@ -1,0 +1,7 @@
+package kodlamaioDemo.dataAccess.hibernate;
+
+import kodlamaioDemo.dataAccess.abstracts.courseDao;
+
+public class hibernateCourseDao implements courseDao {
+
+}
